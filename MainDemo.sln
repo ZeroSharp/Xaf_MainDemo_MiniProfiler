@@ -1,5 +1,5 @@
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainDemo.EasyTests", "MainDemo.EasyTests", "{CAC03114-8A53-4F81-85AF-CE4871BBE6EA}"
 	ProjectSection(SolutionItems) = preProject
 		MainDemo.EasyTests\Config.xml = MainDemo.EasyTests\Config.xml
@@ -22,6 +22,13 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainDemo.Win.Ribbon", "MainDemo.Win.Ribbon\MainDemo.Win.Ribbon.csproj", "{DFB0BA62-BA8A-4EC1-8FCA-B66850F18998}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainDemo.Win.Mdi", "MainDemo.Win.Mdi\MainDemo.Win.Mdi.csproj", "{D0472AB8-833F-4519-BF63-9802BE3DECF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{76A26A4D-7B48-4BB7-A657-031B832FFEF8}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

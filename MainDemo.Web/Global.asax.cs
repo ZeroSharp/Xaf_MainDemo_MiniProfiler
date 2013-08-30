@@ -29,6 +29,7 @@ namespace MainDemo.Web {
 #if DEBUG
             TestScriptsManager.EasyTestEnabled = true;
 #endif
+            WebApplication.SetShared(new MainDemoWebApplication());
         }
         protected void Session_Start(object sender, EventArgs e) {
             WebApplication.SetInstance(Session,

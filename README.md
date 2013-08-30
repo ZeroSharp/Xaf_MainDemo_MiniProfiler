@@ -4,4 +4,4 @@ The goal of this project is to configure [MiniProfiler](http://miniprofiler.com)
 
 ### Dependencies ###
 
-Requires [DevExpress Xaf](http://www.devexpress.com/Products/NET/Application_Framework/). This currently uses version 13.1.5.
+Requires [DevExpress Xaf](http://www.devexpress.com/Products/NET/Application_Framework/). This currently uses version 13.1.6.
